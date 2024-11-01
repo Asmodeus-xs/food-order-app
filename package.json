@@ -1,6 +1,6 @@
 {
   "homepage": "https://asmodeus-xs.github.io/food-order-app/",
-  "name": "food-order-app-ts",
+  "name": "food-order-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
