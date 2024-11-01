@@ -1,5 +1,5 @@
 {
-  "homepage": "https://asmodeus-xs.github.io/foor-order-app/",
+  "homepage": "https://asmodeus-xs.github.io/food-order-app/",
   "name": "food-order-app-ts",
   "private": true,
   "version": "0.0.0",
@@ -7,6 +7,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
